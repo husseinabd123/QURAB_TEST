@@ -1,0 +1,7 @@
+-keep class io.flutter.** { *; }
+-keep class com.ryanheise.just_audio_background.** { *; }
+-keep class androidx.work.impl.background.systemjob.SystemJobService { *; }
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { *; }
+-keep class androidx.work.impl.foreground.SystemForegroundService { *; }
+-keep class dev.fluttercommunity.plus.androidalarmmanager.AlarmService { *; }
+-keep class dev.fluttercommunity.plus.androidalarmmanager.IdleService { *; }
